@@ -1,4 +1,4 @@
-# 🏠 house_bell
+# 🏠 Jarassy
 
 A software doorbell for your local network. Run it on a few devices, and anyone can press the button to ring all the others. No server, no cloud, no hardware.
 
@@ -24,8 +24,8 @@ Built with Python and [Flet](https://flet.dev). Runs on desktop and Android.
 ## Installation
 
 ```bash
-git clone https://github.com/kevin-297/house_bell.git
-cd house_bell
+git clone https://github.com/kevin-297/Jarassy.git
+cd Jarassy
 python -m venv venv
 source venv/bin/activate        # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -46,9 +46,9 @@ Press **RING** on any device and all the others will alert. The screen shows how
 An APK is built automatically by GitHub Actions on every push to `main`.
 
 **Download a build:**
-1. Open the [Actions tab](https://github.com/kevin-297/house_bell/actions)
+1. Open the [Actions tab](https://github.com/kevin-297/Jarassy/actions)
 2. Click the latest successful **Build Android APK** run
-3. Download `house-bell-apk` from the **Artifacts** section and unzip it
+3. Download `Jarassy-apk` from the **Artifacts** section and unzip it
 4. Install the `.apk` on your phone (you may need to allow installs from unknown sources)
 
 **Build it yourself:**
